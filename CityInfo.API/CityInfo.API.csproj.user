@@ -5,8 +5,5 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>CityInfo.API</ActiveDebugProfile>
-    <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
-    <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
-    <NameOfLastUsedPublishProfile>C:\Pluralsight demo\CityInfo\CityInfo.API\Properties\PublishProfiles\PluralsightDemo-CityInfoAPI - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
