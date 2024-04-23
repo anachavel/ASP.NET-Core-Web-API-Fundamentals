@@ -4,11 +4,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers(options => // Gracias a esto es con lo que construyo lo que se ve al entrar en localhost.../swagger
+builder.Services.AddControllers(options =>
 {
     options.ReturnHttpNotAcceptable = true;
-}).AddXmlDataContractSerializerFormatters();
-
+}).AddNewtonsoftJson()
+.AddXmlDataContractSerializerFormatters();
 
 //builder.Services.AddProblemDetails(options =>
 //{
